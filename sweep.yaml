@@ -24,4 +24,4 @@ parameters:
   finish_update:
     values: [1, 0.5, 0.33]
 
-project: ML-mask_autoencoder_autoML
+project: ML-autoencoder_autoML
