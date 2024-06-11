@@ -90,7 +90,7 @@ def train_autoencoder():
     num_epochs = config.num_epochs
     mask_prob = config.start_mask_prob
     mask_prob_increment = (config.end_mask_prob - config.start_mask_prob) / (num_epochs / (config.mask_prob_step + 1) * config.finish_update)
-    for epoch in range(num_epochs):
+    for epoch in tqdm(range(num_epochs)):
         if epoch > 0 and epoch % config.mask_prob_step == 0 and epoch < num_epochs / 2 + 1:
             mask_prob += mask_prob_increment
 
