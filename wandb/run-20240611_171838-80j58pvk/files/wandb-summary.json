@@ -1,0 +1,1 @@
+{"loss": 1.2493635416030884, "epoch": 99, "_timestamp": 1718093939.927181, "_runtime": 21.589035987854004, "_step": 101, "mean_squared_error": "sklearn.metrics._regression.mean_squared_error", "mean_absolute_error": "sklearn.metrics._regression.mean_absolute_error", "restored_fill_mse": 0.9892999529838562, "restored_fill_mae": 0.6492709517478943, "_wandb": {"runtime": 21}}

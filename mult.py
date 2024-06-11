@@ -130,7 +130,7 @@ def train_autoencoder():
     for i in range(X_test_tensor.shape[0]):
         for j in range(I, J):
             if not mask[i, j - I]:  # 마스킹되지 않은 값일 때
-                restored_fill_data[i, j] = X_test_tensor[i, j]
+                restored_fill_data[i, j - I] = y_test_tensor[i, j - I]
     restored_fill_df = pd.DataFrame(restored_fill_data, columns=interest_value_columns)
 
     # 정확도 평가
@@ -143,8 +143,8 @@ def train_autoencoder():
     wandb.log({"mean_squared_error": restored_mse, "mean_absolute_error": restored_mae})
     wandb.log({"restored_fill_mse": restored_fill_mse, "restored_fill_mae": restored_fill_mae})
 
-    wandb.run.summary["mean_squared_error"] = mean_squared_error
-    wandb.run.summary["mean_absolute_error"] = mean_absolute_error
+    wandb.run.summary["mean_squared_error"] = restored_mse
+    wandb.run.summary["mean_absolute_error"] = restored_mae
     wandb.run.summary["restored_fill_mse"] = restored_fill_mse
     wandb.run.summary["restored_fill_mae"] = restored_fill_mae
     return model, config

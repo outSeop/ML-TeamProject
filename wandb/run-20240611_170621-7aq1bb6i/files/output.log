@@ -1,0 +1,14 @@
+
+
+
+
+
+
+
+100%|███████████████████████████████████████████████████████████████████████████████████| 100/100 [00:15<00:00,  6.40it/s]
+Traceback (most recent call last):
+  File "mult.py", line 153, in <module>
+    train_autoencoder()
+  File "mult.py", line 133, in train_autoencoder
+    restored_fill_data[i, j] = X_test_tensor[i, j]
+IndexError: index 11 is out of bounds for axis 1 with size 11

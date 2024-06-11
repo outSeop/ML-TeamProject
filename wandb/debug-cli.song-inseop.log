@@ -1,0 +1,142 @@
+2024-06-11 17:05:46 INFO Running runs: []
+2024-06-11 17:05:47 INFO Agent received command: run
+2024-06-11 17:05:47 INFO Agent starting run with config:
+	end_mask_prob: 0.9
+	finish_update: 1
+	hidden_dim1: 128
+	hidden_dim2: 32
+	latent_dim: 32
+	lr: 0.001
+	mask_prob_step: 5
+	num_epochs: 100
+	start_mask_prob: 0.7
+2024-06-11 17:05:47 INFO About to run command: /usr/bin/env python mult.py --end_mask_prob=0.9 --finish_update=1 --hidden_dim1=128 --hidden_dim2=32 --latent_dim=32 --lr=0.001 --mask_prob_step=5 --num_epochs=100 --start_mask_prob=0.7
+2024-06-11 17:05:52 INFO Running runs: ['4seint17']
+2024-06-11 17:06:13 INFO Cleaning up finished run: 4seint17
+2024-06-11 17:06:18 INFO Agent received command: run
+2024-06-11 17:06:18 INFO Agent starting run with config:
+	end_mask_prob: 0.5
+	finish_update: 1
+	hidden_dim1: 32
+	hidden_dim2: 16
+	latent_dim: 16
+	lr: 0.0001
+	mask_prob_step: 5
+	num_epochs: 100
+	start_mask_prob: 0.5
+2024-06-11 17:06:18 INFO About to run command: /usr/bin/env python mult.py --end_mask_prob=0.5 --finish_update=1 --hidden_dim1=32 --hidden_dim2=16 --latent_dim=16 --lr=0.0001 --mask_prob_step=5 --num_epochs=100 --start_mask_prob=0.5
+2024-06-11 17:06:23 INFO Running runs: ['7aq1bb6i']
+2024-06-11 17:12:14 INFO Running runs: []
+2024-06-11 17:12:14 INFO Agent received command: run
+2024-06-11 17:12:14 INFO Agent starting run with config:
+	end_mask_prob: 0.9
+	finish_update: 0.5
+	hidden_dim1: 128
+	hidden_dim2: 64
+	latent_dim: 8
+	lr: 0.0001
+	mask_prob_step: 20
+	num_epochs: 200
+	start_mask_prob: 0.1
+2024-06-11 17:12:14 INFO About to run command: /usr/bin/env python mult.py --end_mask_prob=0.9 --finish_update=0.5 --hidden_dim1=128 --hidden_dim2=64 --latent_dim=8 --lr=0.0001 --mask_prob_step=20 --num_epochs=200 --start_mask_prob=0.1
+2024-06-11 17:12:19 INFO Running runs: ['vhsysydo']
+2024-06-11 17:13:12 INFO Cleaning up finished run: vhsysydo
+2024-06-11 17:15:49 INFO Running runs: []
+2024-06-11 17:15:49 INFO Agent received command: run
+2024-06-11 17:15:49 INFO Agent starting run with config:
+	end_mask_prob: 0.7
+	finish_update: 0.33
+	hidden_dim1: 128
+	hidden_dim2: 32
+	latent_dim: 8
+	lr: 0.0001
+	mask_prob_step: 5
+	num_epochs: 100
+	start_mask_prob: 0.1
+2024-06-11 17:15:49 INFO About to run command: /usr/bin/env python mult.py --end_mask_prob=0.7 --finish_update=0.33 --hidden_dim1=128 --hidden_dim2=32 --latent_dim=8 --lr=0.0001 --mask_prob_step=5 --num_epochs=100 --start_mask_prob=0.1
+2024-06-11 17:15:54 INFO Running runs: ['hazixdws']
+2024-06-11 17:16:21 INFO Cleaning up finished run: hazixdws
+2024-06-11 17:16:26 INFO Agent received command: run
+2024-06-11 17:16:26 INFO Agent starting run with config:
+	end_mask_prob: 0.5
+	finish_update: 0.5
+	hidden_dim1: 64
+	hidden_dim2: 64
+	latent_dim: 16
+	lr: 0.001
+	mask_prob_step: 5
+	num_epochs: 100
+	start_mask_prob: 0.1
+2024-06-11 17:16:26 INFO About to run command: /usr/bin/env python mult.py --end_mask_prob=0.5 --finish_update=0.5 --hidden_dim1=64 --hidden_dim2=64 --latent_dim=16 --lr=0.001 --mask_prob_step=5 --num_epochs=100 --start_mask_prob=0.1
+2024-06-11 17:16:31 INFO Running runs: ['54mvdoku']
+2024-06-11 17:17:02 INFO Cleaning up finished run: 54mvdoku
+2024-06-11 17:17:02 INFO Agent received command: run
+2024-06-11 17:17:02 INFO Agent starting run with config:
+	end_mask_prob: 0.5
+	finish_update: 0.33
+	hidden_dim1: 64
+	hidden_dim2: 64
+	latent_dim: 16
+	lr: 0.0001
+	mask_prob_step: 5
+	num_epochs: 100
+	start_mask_prob: 0.1
+2024-06-11 17:17:02 INFO About to run command: /usr/bin/env python mult.py --end_mask_prob=0.5 --finish_update=0.33 --hidden_dim1=64 --hidden_dim2=64 --latent_dim=16 --lr=0.0001 --mask_prob_step=5 --num_epochs=100 --start_mask_prob=0.1
+2024-06-11 17:18:04 INFO Running runs: []
+2024-06-11 17:18:05 INFO Agent received command: run
+2024-06-11 17:18:05 INFO Agent starting run with config:
+	end_mask_prob: 0.7
+	finish_update: 1
+	hidden_dim1: 32
+	hidden_dim2: 16
+	latent_dim: 8
+	lr: 0.001
+	mask_prob_step: 5
+	num_epochs: 100
+	start_mask_prob: 0.5
+2024-06-11 17:18:05 INFO About to run command: /usr/bin/env python mult.py --end_mask_prob=0.7 --finish_update=1 --hidden_dim1=32 --hidden_dim2=16 --latent_dim=8 --lr=0.001 --mask_prob_step=5 --num_epochs=100 --start_mask_prob=0.5
+2024-06-11 17:18:10 INFO Running runs: ['vy722dgt']
+2024-06-11 17:18:31 INFO Cleaning up finished run: vy722dgt
+2024-06-11 17:18:35 INFO Agent received command: run
+2024-06-11 17:18:35 INFO Agent starting run with config:
+	end_mask_prob: 0.9
+	finish_update: 0.33
+	hidden_dim1: 128
+	hidden_dim2: 32
+	latent_dim: 32
+	lr: 0.001
+	mask_prob_step: 5
+	num_epochs: 100
+	start_mask_prob: 0.1
+2024-06-11 17:18:35 INFO About to run command: /usr/bin/env python mult.py --end_mask_prob=0.9 --finish_update=0.33 --hidden_dim1=128 --hidden_dim2=32 --latent_dim=32 --lr=0.001 --mask_prob_step=5 --num_epochs=100 --start_mask_prob=0.1
+2024-06-11 17:18:40 INFO Running runs: ['80j58pvk']
+2024-06-11 17:19:06 INFO Cleaning up finished run: 80j58pvk
+2024-06-11 17:19:07 INFO Agent received command: run
+2024-06-11 17:19:07 INFO Agent starting run with config:
+	end_mask_prob: 0.9
+	finish_update: 1
+	hidden_dim1: 32
+	hidden_dim2: 64
+	latent_dim: 32
+	lr: 0.0001
+	mask_prob_step: 5
+	num_epochs: 100
+	start_mask_prob: 0.5
+2024-06-11 17:19:07 INFO About to run command: /usr/bin/env python mult.py --end_mask_prob=0.9 --finish_update=1 --hidden_dim1=32 --hidden_dim2=64 --latent_dim=32 --lr=0.0001 --mask_prob_step=5 --num_epochs=100 --start_mask_prob=0.5
+2024-06-11 17:19:12 INFO Running runs: ['216j50ur']
+2024-06-11 17:19:38 INFO Cleaning up finished run: 216j50ur
+2024-06-11 17:20:39 INFO Running runs: []
+2024-06-11 17:20:41 INFO Agent received command: run
+2024-06-11 17:20:41 INFO Agent starting run with config:
+	end_mask_prob: 0.7
+	finish_update: 0.33
+	hidden_dim1: 32
+	hidden_dim2: 32
+	latent_dim: 32
+	lr: 0.0001
+	mask_prob_step: 10
+	num_epochs: 100
+	start_mask_prob: 0.5
+2024-06-11 17:20:41 INFO About to run command: /usr/bin/env python mult.py --end_mask_prob=0.7 --finish_update=0.33 --hidden_dim1=32 --hidden_dim2=32 --latent_dim=32 --lr=0.0001 --mask_prob_step=10 --num_epochs=100 --start_mask_prob=0.5
+2024-06-11 17:20:46 INFO Running runs: ['9ysvh4fa']
+2024-06-11 17:21:07 INFO Cleaning up finished run: 9ysvh4fa

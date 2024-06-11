@@ -1,0 +1,20 @@
+wandb_version: 1
+
+end_mask_prob:
+  value: 0.7
+finish_update:
+  value: 1
+hidden_dim1:
+  value: 32
+hidden_dim2:
+  value: 16
+latent_dim:
+  value: 8
+lr:
+  value: 0.001
+mask_prob_step:
+  value: 5
+num_epochs:
+  value: 100
+start_mask_prob:
+  value: 0.5

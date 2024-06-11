@@ -1,0 +1,1 @@
+{"loss": 0.8058627843856812, "epoch": 99, "_timestamp": 1718094066.891258, "_runtime": 22.810384035110474, "_step": 101, "mean_squared_error": 0.6847841739654541, "mean_absolute_error": 0.6122364401817322, "restored_fill_mse": 0.5317019820213318, "restored_fill_mae": 0.4539257884025574, "_wandb": {"runtime": 22}}
